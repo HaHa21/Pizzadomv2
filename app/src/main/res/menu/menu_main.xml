@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_create_order"
+        android:title="@string/action_create_order"
+        android:icon="@drawable/new_event"
+        android:orderInCategory="1"
+        android:showAsAction= "ifRoom"/>
+
+<item android:id="@+id/action_share"
+    android:title="@string/action_share"
+    android:orderInCategory="2"
+    android:showAsAction="ifRoom"
+    android:actionProviderClass="android.widget.ShareActionProvider"/>
+
+    <item android:id="@+id/action_register"
+        android:title="@string/register"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom" />
+    <item android:id="@+id/action_maps"
+        android:title="@string/where_we_are"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom" />
+<item android:id="@+id/action_settings"
+    android:title="@string/action_settings"
+    android:orderInCategory="100"
+    app:showAsAction="never">
+
+</item>
+
+    <item android:id="@+id/action_contacts"
+        android:title="@string/action_contacts"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+    </item>
+    <item android:id="@+id/action_email"
+        android:title="@string/action_email"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+    </item>
+</menu>

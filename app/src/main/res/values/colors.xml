@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CDDC39</color>
+    <color name="colorPrimaryDark">#AFB42B</color>
+    <color name="colorPrimaryLight">#F0F4C3</color>
+    <color name="colorAccent">#795548</color>
+    <color name="colorPrimaryText">#212121</color>
+    <color name="colorSecondaryText">#757575</color>
+    <color name="icons">#ffffff</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="cursorAccent">#FFC000</color>
+    <color name="controlNormal">#FFFFFF</color>
+    <color name="controlActivated">#F09700</color>
+    <color name="orange">#F2C057</color>
+    <color name="backgroundtoolbar">#486824</color>
+    <color name="button_pressed">#FFA500</color>
+    <color name="button_focused">#AFB42B</color>
+    <color name="button_default">#000000</color>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "468890291238",
+    "firebase_url": "https://pizzadom-ccc56.firebaseio.com",
+    "project_id": "pizzadom-ccc56",
+    "storage_bucket": "pizzadom-ccc56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468890291238:android:af700f76f28b74b6",
+        "android_client_info": {
+          "package_name": "com.pizzadom.pizzadom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468890291238-j933u0iir48ih02rvc360amk3lukjp33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDn_aUERnP-vcByspy1cI--N5MaBMAFT08"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

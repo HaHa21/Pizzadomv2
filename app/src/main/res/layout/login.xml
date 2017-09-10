@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="35dp"
+    android:orientation="vertical"
+    android:background="@color/orange"
+    android:theme="@style/Theme.AppCompat">
+
+    <!-- Load the toolbar here -->
+    <android.support.v7.widget.Toolbar
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:title="Pizzadom"
+        android:titleTextColor="#ffffff"
+
+        android:background="@color/backgroundtoolbar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        </android.support.v7.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Email"
+        android:textColorHint="@color/colorPrimaryText"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Email"
+        android:layout_marginTop="125dp"
+        android:ems="10"
+        android:hint="Password"
+        android:textColorHint="@color/colorPrimaryText"
+        android:inputType="textPassword" />
+
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/button_background"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/ForgotPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/SignUp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/button_background"
+        android:text="ForgotPassword" />
+
+    <Button
+        android:id="@+id/SignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/login"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/button_background"
+        android:text="SignUp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_marginTop="455dp">
+
+        <ImageButton
+            android:id="@+id/forwardbtn"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/forward" />
+
+        <ImageButton
+            android:id="@+id/backbtn"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/back" />
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>
