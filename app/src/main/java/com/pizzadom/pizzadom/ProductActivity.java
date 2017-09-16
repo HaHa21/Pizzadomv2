@@ -7,6 +7,7 @@ import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -52,6 +53,11 @@ public class ProductActivity extends AppCompatActivity {
         productColor = (TextView)findViewById(R.id.product_color);
         productPrice = (TextView)findViewById(R.id.product_price);
         productDescription = (TextView)findViewById(R.id.product_description);
+        // Find the toolbar view inside the activity layout
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("Pizzadom");
+
+        setSupportActionBar(toolbar);
 
         GsonBuilder builder = new GsonBuilder();
         gson = builder.create();

@@ -1,8 +1,11 @@
 package com.pizzadom.pizzadom;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -45,7 +48,9 @@ public class PayPalCheckoutActivity extends AppCompatActivity {
 
     private static PayPalConfiguration config = new PayPalConfiguration()
             .environment(PayPalConfiguration.ENVIRONMENT_NO_NETWORK)
-            .clientId("AQ75IX6jhK7WzINoMTwrnuHGfw10BhUyTeOybzIB-lEqdEuuarAvVNjRtSx4sxuEmMTf5JY_fxYjqgpCs");
+            .clientId("AQ75IX6jhK7WzINoMTwrnuHGfw10BhUyTeOybzIB-lEqdEuuarAvVNjRtSx4sxuEmMTf5JY_fxYjqgpC");
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

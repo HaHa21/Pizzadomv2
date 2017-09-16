@@ -61,7 +61,7 @@ public class PaymentsActivity extends AppCompatActivity implements GoogleApiClie
 
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .enableAutoManage(this, this)
-                .setAccountName("Inducesmile")
+                .setAccountName("Pizzadom")
                 .addApi(Wallet.API, new Wallet.WalletOptions.Builder()
                         .setEnvironment(Constants.WALLET_ENVIRONMENT)
                         .setTheme(WalletConstants.THEME_LIGHT)
