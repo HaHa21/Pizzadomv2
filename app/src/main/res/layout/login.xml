@@ -5,25 +5,26 @@
     android:id="@+id/loginlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/orange"
+    android:layout_marginTop="35dp"
     android:orientation="vertical"
+    android:background="@color/orange"
     android:theme="@style/Theme.AppCompat">
 
     <!-- Load the toolbar here -->
     <android.support.v7.widget.Toolbar
 
-        android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-
-        android:layout_alignParentTop="true"
-        android:background="@color/backgroundtoolbar"
+        android:id="@+id/toolbar"
         android:title="Pizzadom"
-        android:titleTextColor="#ffffff">
+        android:titleTextColor="#ffffff"
 
-    </android.support.v7.widget.Toolbar>
+        android:background="@color/backgroundtoolbar"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        </android.support.v7.widget.Toolbar>
 
     <EditText
         android:id="@+id/Email"
@@ -36,8 +37,8 @@
         android:ems="10"
         android:gravity="top"
         android:hint="Email"
-        android:inputType="textPersonName"
-        android:textColorHint="@color/colorPrimaryText" />
+        android:textColorHint="@color/colorPrimaryText"
+        android:inputType="textPersonName" />
 
 
     <EditText
@@ -50,8 +51,8 @@
         android:layout_marginTop="125dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="textPassword"
-        android:textColorHint="@color/colorPrimaryText" />
+        android:textColorHint="@color/colorPrimaryText"
+        android:inputType="textPassword" />
 
 
     <Button
@@ -92,7 +93,7 @@
         android:layout_height="85dp"
         android:layout_marginTop="455dp">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/forwardbtn"
             android:layout_width="135dp"
             android:layout_height="wrap_content"
@@ -102,7 +103,7 @@
             android:layout_alignParentTop="true"
             android:src="@drawable/forward" />
 
-        <ImageView
+        <ImageButton
             android:id="@+id/backbtn"
             android:layout_width="135dp"
             android:layout_height="wrap_content"

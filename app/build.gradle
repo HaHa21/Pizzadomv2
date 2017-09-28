@@ -57,7 +57,6 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:9.2.0'
     //Adding Firebase android
     compile 'com.firebase:firebase-client-android:2.4.0'
-    compile 'com.braintreepayments.api:braintree:2.6.2'
 }
 
 apply plugin: 'com.google.gms.google-services'

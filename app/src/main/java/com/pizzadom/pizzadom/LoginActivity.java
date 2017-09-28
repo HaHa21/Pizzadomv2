@@ -1,7 +1,9 @@
 package com.pizzadom.pizzadom;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -17,9 +19,10 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
-import android.widget.TextView;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.google.android.gms.ads.formats.NativeAd;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
@@ -132,11 +135,10 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener 
        }
        else if(v.getId() == R.id.login){
 
-           if(TextUtils.isEmpty(password)) {
-                   Toast.makeText(this, "Please enter password ", Toast.LENGTH_LONG).show();
-                   return;
-               }
-
+           if(TextUtils.isEmpty(password)){
+               Toast.makeText(this, "Please enter password ", Toast.LENGTH_LONG).show();
+               return;
+           }
 
            if(TextUtils.isEmpty(email)){
                Toast.makeText(this, "Please enter email ", Toast.LENGTH_LONG).show();
@@ -163,21 +165,8 @@ public class LoginActivity extends AppCompatActivity implements OnClickListener 
                                startActivity(intentorder);
                                finish();
                            }
-                             else{
-                               Snackbar snackbar = Snackbar
 
-                                       .make(login , "Please enter credentials again", Snackbar.LENGTH_INDEFINITE);
-
-                               View snackbarView = snackbar.getView();
-                               snackbarView.setBackgroundColor(Color.WHITE);
-                               TextView textView = (TextView) snackbarView.findViewById(android.support.design.R.id.snackbar_text);
-                               textView.setTextColor(Color.BLUE);
-
-                               snackbar.show();
-
-                           }
-
-                                                  }
+                       }
                    }
            );
        }

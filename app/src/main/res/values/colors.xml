@@ -13,7 +13,7 @@
     <color name="controlActivated">#F09700</color>
     <color name="orange">#F2C057</color>
     <color name="backgroundtoolbar">#486824</color>
-    <color name="button_pressed">#ffa500</color>
-    <color name="button_focused">#ACB42B</color>
-    <color name="button_hovered">#000000</color>
+    <color name="button_pressed">#FFA500</color>
+    <color name="button_focused">#AFB42B</color>
+    <color name="button_default">#000000</color>
 </resources>
