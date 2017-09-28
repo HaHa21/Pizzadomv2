@@ -37,4 +37,5 @@
     <string name="successful_payment">Payment successfully uploaded</string>
     <string name="pay_with_paypal">Pay with PayPal</string>
     <string name="add_to_cart">Add to Cart</string>
+    <string name="loading">loading</string>
 </resources>

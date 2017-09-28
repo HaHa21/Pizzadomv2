@@ -12,8 +12,10 @@
     <color name="controlNormal">#FFFFFF</color>
     <color name="controlActivated">#F09700</color>
     <color name="orange">#F2C057</color>
+    <color name="primary_text">#ffffff</color>
+    <color name="secondary_text">#FFFFFF</color>
     <color name="backgroundtoolbar">#486824</color>
     <color name="button_pressed">#FFA500</color>
     <color name="button_focused">#AFB42B</color>
-    <color name="button_default">#000000</color>
+    <color name="button_default">#0099F0</color>
 </resources>
