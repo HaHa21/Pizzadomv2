@@ -4,21 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-
+    android:background="@color/orange"
     android:layout_height="match_parent">
-    <android.support.design.widget.AppBarLayout
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppCompat">
+        android:layout_height="50dp"
+        android:background="@color/backgroundtoolbar" />
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="@color/colorAccent"
-            />
-
-    </android.support.design.widget.AppBarLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
