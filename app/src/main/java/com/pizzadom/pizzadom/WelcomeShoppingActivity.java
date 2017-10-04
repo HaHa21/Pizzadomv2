@@ -1,11 +1,14 @@
 package com.pizzadom.pizzadom;
 
+import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -82,6 +85,29 @@ public class WelcomeShoppingActivity extends AppCompatActivity {
         });
 
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Handle action bar item clicks here. The action bar will
+        // automatically handle clicks on the Home/Up button, so long
+        // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        if (id == R.id.action_logout) {
+            mAuth.signOut();
+            Intent intenthome = new Intent(this, LoginActivity.class);
+            startActivity(intenthome);
+            finish();
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
     private class ImageLoadTask extends AsyncTask<Void, Void, Bitmap> {
