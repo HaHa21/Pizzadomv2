@@ -34,6 +34,7 @@ public class Firebaseregister extends AppCompatActivity implements View.OnClickL
     private EditText editTextEmail, editTextPassword, editName, editPhone;
     private Button buttonSavestate, buttonreset;
     private ImageButton btnback, btnforward;
+    private String name, phone,email, password;
     Snackbar snackbar;
     private ProgressDialog mProgressDialog;
     private CoordinatorLayout insertlayout;
@@ -43,6 +44,12 @@ public class Firebaseregister extends AppCompatActivity implements View.OnClickL
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.insertactivity);
+        if(savedInstanceState != null){
+            password = savedInstanceState.getString("password");
+            email = savedInstanceState.getString("email");
+            name = savedInstanceState.getString("name");
+            phone = savedInstanceState.getString("phone");
+        }
 
 
         Firebase.setAndroidContext(this);
@@ -55,6 +62,7 @@ public class Firebaseregister extends AppCompatActivity implements View.OnClickL
         super.onStart();
         buttonSavestate = (Button) findViewById(R.id.buttonSave);
 
+
         editTextEmail = (EditText) findViewById(R.id.editemailAddress);
         editName = (EditText) findViewById(R.id.editName);
         editPhone = (EditText) findViewById(R.id.editPhone);
@@ -64,11 +72,20 @@ public class Firebaseregister extends AppCompatActivity implements View.OnClickL
         buttonreset = (Button) findViewById(R.id.btnreset);
         btnback = (ImageButton) findViewById(R.id.backbtn);
 
+
+
         buttonSavestate.setOnClickListener(this);
 
         buttonreset.setOnClickListener(this);
         btnback.setOnClickListener(this);
 
+    }
+
+    public void onSavedInstanceState(Bundle saveState){
+        saveState.putString("email", editTextEmail.getText().toString());
+        saveState.putString("password", editTextPassword.getText().toString());
+        saveState.putString("name", editName.getText().toString());
+        saveState.putString("phone", editPhone.getText().toString());
     }
 
     @Override
