@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.2\ccde00f7ccc77af5a6d5752e2cb21f6d8998289f\okhttp-3.4.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ccde00f7ccc77af5a6d5752e2cb21f6d8998289f">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.2_a3817d9d6da895c77e7f548539655f101af99ba5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\af89e069a8cda3d0854f77db372d2fc66003faf4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9df547a8c3f971d9e8ed570b5e36c44a9dc7632f">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c372c4cd09f1a502bf7dd2b14e3d26e701a006e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.1.0\aa557d71ead91cbf26e0c316a0f593d168303309\converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.1.0_5e136d333483afc263e38773af1d5edcc5de1384\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Pizzadomv2\library2\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9bbd886d7f51294635b60ac94361689e45eb7f2f">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\4\classes_b8632a4112162e2d46e9e71949920e612becd44f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.8.1\bc373fb6bc7bca3035041b924f158fd2b946ee8d\butterknife-annotations-8.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bc373fb6bc7bca3035041b924f158fd2b946ee8d">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.8.1_ce42900314addcaadf5eb5eda6a4201797a35175\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\a3ca9e77f54f1e93e592c65ee817ddf354dff8e3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="213a75f93fa2961a4c69566ef3c9a365c70a8693">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_cf1f89673672655c2f24fa990b1242b9c10aae59\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.twitter\twitter-text\1.14.3\71218d7dd9435e8b43e5ccf117bec37cb78fa2eb\twitter-text-1.14.3.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="71218d7dd9435e8b43e5ccf117bec37cb78fa2eb">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\twitter-text-1.14.3_ca259009896998e304fd2b122476975b62726ed1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.1.0\2de7cd8b95b7021b1d597f049bcb422055119f2c\retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.1.0_9dd2ff9a3520bc4fbf15263acb025e9a671ffd94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_87ec70002713aedce86d9826b500923c9d9dddcc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\24de17c975234ecbcc0be444cb1576ab69936281\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6a2bcb61342d09fe9acf55c9daf63961c8866cc0">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_72f49149106b372d47b4e6bc2e1cf29dc1d5b62f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\User\.android\build-cache\b80a771124f14996b139ba0ec5596ba7083dc3bb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c6525f06e39d6c9e88d5b86ce6fe0351bc674a80">
+        <dex dex="D:\Pizzadomv2\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9c757537db8eae4799763bf42387e7dc62c92276\classes.dex" />
+    </item>
+
+</items>

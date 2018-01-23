@@ -5,7 +5,7 @@
     android:id="@+id/loginlayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginTop="35dp"
+    android:layout_marginTop="3dp"
     android:orientation="vertical"
     android:background="@color/orange"
     android:theme="@style/Theme.AppCompat">
@@ -56,24 +56,13 @@
 
 
     <Button
-        android:id="@+id/login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_below="@+id/Password"
-        android:layout_marginTop="260dp"
-        android:background="@drawable/button_background"
-        android:text="Login" />
-
-    <Button
         android:id="@+id/ForgotPass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/SignUp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="280dp"
         android:background="@drawable/button_background"
         android:text="ForgotPassword" />
 
@@ -84,24 +73,47 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/login"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="340dp"
         android:background="@drawable/button_background"
         android:text="SignUp" />
 
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/button_facebook_login"
+    <GridLayout
+        android:layout_width="406dp"
+        android:layout_height="match_parent"
+        android:rowCount="2"
+        android:columnCount="1"
+        android:id="@+id/gridLayout">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/button_facebook_login"
+            android:layout_width="225dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="400dp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="220dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="5dp"/>
+    </GridLayout>
+
+
+    <Button
+        android:id="@+id/login"
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
-        android:layout_centerInParent="true"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="420dp"
-        android:textStyle="bold" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Password"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/button_background"
+        android:text="Login" />
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="85dp"
-        android:layout_marginTop="455dp">
+        android:layout_height="65dp"
+        android:layout_marginTop="470dp">
 
         <ImageButton
             android:id="@+id/forwardbtn"
@@ -116,10 +128,12 @@
         <ImageButton
             android:id="@+id/backbtn"
             android:layout_width="135dp"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
             android:src="@drawable/back" />
     </RelativeLayout>
+
+
 </android.support.design.widget.CoordinatorLayout>

@@ -29,6 +29,7 @@ android {
         exclude 'META-INF/DEPENDENCIES'
         exclude 'META-INF/notice.txt'
         exclude 'META-INF/license.txt'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
         exclude 'META-INF/dependencies.txt'
         exclude 'META-INF/LGPL2.1'
     }
@@ -59,6 +60,12 @@ dependencies {
     compile 'com.google.firebase:firebase-auth:11.0.4'
     //Adding Firebase android
     compile 'com.firebase:firebase-client-android:2.4.0'
+    //Twitter SSO
+    compile 'com.twitter.sdk.android:twitter-core:3.1.1'
+    compile 'com.twitter.sdk.android:tweet-ui:3.1.1'
+    compile 'com.twitter.sdk.android:tweet-composer:3.1.1'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
 }
 
 apply plugin: 'com.google.gms.google-services'

@@ -14,9 +14,12 @@
     <string name="register">register</string>
     <string name="title_activity_register">Registration</string>
     <string name="yes">yes</string>
+    <string name="Ads">Pizzadom Promo</string>
     <string name="deleteContact">deleteContact</string>
     <string name="forgot_password">Reset Password</string>
     <string name="no">no</string>
+    <string name="server_client_id">773320327376-ho18hbtb3slnu90fddt7voqgip5m6ds8.apps.googleusercontent.com</string>
+    <string name="banner_footer">ca-app-pub-5292757823141716/6968619992</string>
     <string name="user_login">user login</string>
     <string name="where_we_are">where_we_are</string>
     <string name="title_activity_maps">Map of Restaurant</string>
@@ -41,4 +44,6 @@
     <string name="pay_with_paypal">Pay with PayPal</string>
     <string name="add_to_cart">Add to Cart</string>
     <string name="loading">loading</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
 </resources>

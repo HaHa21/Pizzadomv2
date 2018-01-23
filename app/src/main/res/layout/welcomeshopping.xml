@@ -25,6 +25,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:orientation="vertical">
+
             <TextView
                 android:id="@+id/text_view_name"
                 android:layout_width="match_parent"
@@ -39,14 +40,14 @@
                 android:layout_height="10dp" />
 
             <ImageView
-                android:layout_gravity="center"
                 android:id="@+id/profile_picture"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
 
 
             <Button
-                android:id="@+id/button_change"
+                android:id="@+id/button_Shopping"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginLeft="0dp"
@@ -55,7 +56,7 @@
                 android:background="@color/colorPrimary"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                android:text="Change Welcome Text"
+                android:text="Go to Shopping"
                 android:textColor="@color/primary_text"
                 android:textSize="18sp" />
 
@@ -64,7 +65,7 @@
                 android:layout_height="10dp" />
 
             <Button
-                android:id="@+id/button_revert"
+                android:id="@+id/button_SignOut"
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:layout_marginLeft="1dp"
@@ -73,7 +74,7 @@
                 android:background="@color/colorPrimary"
                 android:paddingLeft="8dp"
                 android:paddingRight="8dp"
-                android:text="Revert Text"
+                android:text="Sign Out"
                 android:textColor="@color/primary_text"
                 android:textSize="18sp" />
         </LinearLayout>

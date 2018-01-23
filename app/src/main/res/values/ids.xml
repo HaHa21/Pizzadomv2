@@ -8,4 +8,5 @@
     <item name="action_email" type="id">action_email</item>
     <item name="btpick_Contact" type="id">btpick_Contact</item>
     <item name="txt_user" type="id">txt_user</item>
+    <item name="TwitterLogin" type="id">TwitterLogin</item>
 </resources>
