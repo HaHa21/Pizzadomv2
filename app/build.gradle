@@ -42,7 +42,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.google.android.gms:play-services-wallet:11.0.4'
     compile 'com.android.support:support-v4:25.3.1'
-    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.facebook.android:facebook-android-sdk:4.9.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
     compile 'com.intuit.sdp:sdp-android:1.0.3'
     compile 'com.mcxiaoke.volley:library:1.0.19'
     compile 'com.google.code.gson:gson:2.7'
@@ -52,9 +53,10 @@ dependencies {
     compile project(':library2')
     compile 'com.android.support:design:25.3.1'
     compile 'com.google.android.gms:play-services:11.0.4'
+    compile 'com.google.firebase:firebase-core:11.0.4'
     //Adding Firebase
-    compile 'com.google.firebase:firebase-database:9.6.1'
-    compile 'com.google.firebase:firebase-auth:9.2.0'
+    compile 'com.google.firebase:firebase-database:11.0.4'
+    compile 'com.google.firebase:firebase-auth:11.0.4'
     //Adding Firebase android
     compile 'com.firebase:firebase-client-android:2.4.0'
 }

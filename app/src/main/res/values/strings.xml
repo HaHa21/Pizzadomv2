@@ -1,5 +1,6 @@
 <resources>
     <string name="app_name">Pizzadom</string>
+    <string name="facebook_app_id">1952323635023086</string>
     <string name="action_contacts">action_contacts</string>
     <string name="action_settings">action_settings</string>
     <string name="action_email">send email</string>
@@ -20,7 +21,9 @@
     <string name="where_we_are">where_we_are</string>
     <string name="title_activity_maps">Map of Restaurant</string>
     <string name="title_email">Email</string>
-    <string name="login_here_to_get_started">Login here to get started</string>
+    <string name="action_logout">logout</string>
+    <string name="login_here_to_get_started">Login here</string>
+    <string name="Proceed_shopping">Go to Shopping</string>
     <string name="checkout">Checkout</string>
     <string name="description_example">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</string>
     <string name="product_size">Size: 40</string>
@@ -37,4 +40,5 @@
     <string name="successful_payment">Payment successfully uploaded</string>
     <string name="pay_with_paypal">Pay with PayPal</string>
     <string name="add_to_cart">Add to Cart</string>
+    <string name="loading">loading</string>
 </resources>

@@ -7,6 +7,8 @@ import android.widget.TextView;
 
 import com.pizzadom.pizzadom.R;
 
+
+
 public class CheckRecyclerViewHolder extends RecyclerView.ViewHolder{
 
     public TextView quantity, productName, productPrice, removeProduct;

@@ -15,12 +15,12 @@
 
         <ZoomControls
             android:id="@+id/scZoom"
-            android:layout_width="235dp"
+            android:layout_width="425dp"
             android:layout_height="500dp"
             android:layout_alignParentBottom="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:layout_marginTop="428dp"
+            android:layout_marginTop="508dp"
             android:layout_marginEnd="22dp"
             android:layout_marginRight="22dp"></ZoomControls>
     </fragment>
