@@ -34,7 +34,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="65dp"
-        android:ems="10"
+        android:ems="12"
         android:gravity="top"
         android:hint="Email"
         android:textColorHint="@color/colorPrimaryText"
@@ -48,8 +48,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/Email"
-        android:layout_marginTop="125dp"
-        android:ems="10"
+        android:layout_marginTop="105dp"
+        android:ems="12"
         android:hint="Password"
         android:textColorHint="@color/colorPrimaryText"
         android:inputType="textPassword" />
@@ -76,27 +76,6 @@
         android:layout_marginTop="340dp"
         android:background="@drawable/button_background"
         android:text="SignUp" />
-
-    <GridLayout
-        android:layout_width="406dp"
-        android:layout_height="match_parent"
-        android:rowCount="2"
-        android:columnCount="1"
-        android:id="@+id/gridLayout">
-
-        <com.facebook.login.widget.LoginButton
-            android:id="@+id/button_facebook_login"
-            android:layout_width="225dp"
-            android:layout_height="0dp"
-            android:layout_centerInParent="true"
-            android:layout_marginTop="400dp" />
-
-    <com.google.android.gms.common.SignInButton
-        android:id="@+id/sign_in_button"
-        android:layout_width="220dp"
-        android:layout_height="34dp"
-        android:layout_marginTop="5dp"/>
-    </GridLayout>
 
 
     <Button
@@ -134,6 +113,27 @@
             android:layout_alignParentTop="true"
             android:src="@drawable/back" />
     </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="406dp"
+        android:layout_height="match_parent"
+        android:columnCount="1"
+        android:rowCount="2">
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/button_facebook_login"
+            android:layout_width="225dp"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="400dp" />
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/sign_in_button"
+            android:layout_width="220dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="5dp" />
+    </GridLayout>
 
 
 </android.support.design.widget.CoordinatorLayout>
